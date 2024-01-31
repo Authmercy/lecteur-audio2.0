@@ -7,9 +7,13 @@ ion-badge {
 background-color: rgb(110, 104, 104);
   text-align: center;
 }
+
 ion-badge:hover{
   background-color: orangered;
   border: 1px solid orangered;
+}
+.container{
+  padding-top: 5%;
 }
 .debut{
   font-size: 30px;
@@ -41,6 +45,7 @@ ion-badge:hover{
 .body{
   background-color: #110f0f;
   height: 100%;
+  color: white;
 }
 .photo{
   border-radius: 50%;
@@ -56,4 +61,7 @@ ion-range {
 }
 .h1{
   color: white;
+}
+.detail{
+  padding-left: 40%;
 }

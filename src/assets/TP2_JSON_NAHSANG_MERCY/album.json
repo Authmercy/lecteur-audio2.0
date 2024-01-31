@@ -1,0 +1,74 @@
+[
+    {
+        "idAlbum": "11",
+        "nomAlbum": "NAKAMURA",
+        "imageAlbum": "assets/imgs/aya.jpeg"
+    },
+    {
+        "idAlbum": "22",
+        "nomAlbum": "Rave & Roses",
+        "imageAlbum": "assets/imgs/rema.jpeg"
+    },
+   
+    {
+        "idAlbum": "33",
+        "nomAlbum": "Tokoss",
+        "imageAlbum": "assets/imgs/fally.jpeg"
+    },
+    {
+        "idAlbum": "44",
+        "nomAlbum": "Supreme",
+        "imageAlbum": "assets/imgs/lady.jpeg"
+    },
+    {
+        "idAlbum": "55",
+        "nomAlbum": "Ouragan",
+        "imageAlbum": "assets/imgs/coco.jpeg"
+    },
+    {
+        "idAlbum": "66",
+        "nomAlbum": "la Maradora",
+        "imageAlbum": "assets/imgs/ayi.jpg"
+    },
+    {
+        "idAlbum": "77",
+        "nomAlbum": "Swenga",
+        "imageAlbum": "assets/imgs/swega.jpeg"
+    },
+    {
+        "idAlbum": "77",
+        "nomAlbum": "Gerard Ben",
+        "imageAlbum": "assets/imgs/gerard ben.jpeg"
+    },
+    {
+        "idAlbum": "77",
+        "nomAlbum": "Fingon",
+        "imageAlbum": "assets/imgs/fingon.jpeg"
+    },
+    {
+        "idAlbum": "88",
+        "nomAlbum": "Dibango",
+        "imageAlbum": "assets/imgs/dibango.jpeg"
+    },
+     
+    {
+        "idAlbum": "99",
+        "nomAlbum": "Ridimz",
+        "imageAlbum": "assets/imgs/ridimz.jpeg"
+    },
+    {
+        "idAlbum": "100",
+        "nomAlbum": "Grace Decca",
+        "imageAlbum": "assets/imgs/deca.jpeg"
+    },
+    {
+        "idAlbum": "101",
+        "nomAlbum": "Krys M",
+        "imageAlbum": "assets/imgs/krysm.jpg"
+    },
+    {
+        "idAlbum":"200",
+        "nomAlbum":"TCHAKALA VIP",
+        "imageAlbum":"assets/imgs/vip.jpg"
+        }
+]

@@ -1,0 +1,794 @@
+[
+    {    "idChanson": "1",
+        "Titre":"Copine",
+        "path":"Aya Nakamura - Copines (Clip officiel)(MP3_128K)_1.mp3",
+        "Artist":"Aya Nakamura",
+        "Album":{
+
+"idAlbum":"11",
+"nomAlbum":"NAKAMURA",
+"imageAlbum":"assets/imgs/aya.jpeg"
+        },
+
+    "idCategori":"1",
+    "est_fav":"false",
+    "nom_fichier":"copine.mp3"
+    },
+
+
+    {    "idChanson": "12",
+    "path":"Aya Nakamura - Djadja (Clip officiel)(MP3_128K)_1.mp3",
+    "Titre":"Djadja",
+    "Artist":"Aya Nakamura",
+    "Album":{
+
+"idAlbum":"11",
+"nomAlbum":"NAKAMURA",
+"imageAlbum":"assets/imgs/aya.jpeg"
+
+    },
+    "idCategori":"1",
+    "est_fav":"false",
+    "nom_fichier":"Djadja.mp3"
+    
+},
+
+
+{    "idChanson": "13",
+"Titre":"Doudou",
+"Artist":"Aya Nakamura",
+"path":"Aya Nakamura - Doudou (Clip officiel)(MP3_128K)_1.mp3",
+"Album":{
+
+"idAlbum":"11",
+"nomAlbum":"NAKAMURA",
+"imageAlbum":"assets/imgs/aya.jpeg"
+},
+"idCategori":"1",
+"est_fav":"false",
+"nom_fichier":"Doudou.mp3"
+
+},
+
+
+{    "idChanson": "14",
+"Titre":"40%",
+"Artist":"Aya Nakamura",
+"path":"Aya Nakamura - 40_ (Clip officiel)(MP3_128K)_1.mp3",
+"Album":{
+
+"idAlbum":"11",
+"nomAlbum":"NAKAMURA",
+"imageAlbum":"assets/imgs/aya.jpeg"
+},
+"idCategori":"1",
+"est_fav":"false",
+"nom_fichier":"40%.mp3"
+
+},
+
+
+
+{    "idChanson": "15",
+"Titre":"jolie nana",
+"Artist":"Aya Nakamura",
+"path":"Aya Nakamura - Jolie Nana (Paroles)(MP3_128K)_1.mp3",
+"Album":{
+
+"idAlbum":"11",
+"nomAlbum":"NAKAMURA",
+"imageAlbum":"assets/imgs/aya.jpeg"
+},
+"idCategori":"1",
+"est_fav":"false",
+"nom_fichier":"jolie nanar.mp3"
+
+},
+
+
+
+{    "idChanson": "20",
+        "Titre":"Calm down",
+        "Artist":"REMA",
+        "path":"Rema - Calm Down (Official Music Video)_CQLsdm1ZYAw.mp3",
+        "Album":{
+
+"idAlbum":"22",
+"nomAlbum":"Rave & Roses",
+"imageAlbum":"assets/imgs/rema.jpeg"
+        },
+        "idCategori":"21",
+        "est_fav":"false",
+        "nom_fichier":"Calm down.mp3"
+        
+    }, 
+
+
+    {    "idChanson": "23",
+        "Titre":"Woman",
+        "Artist":"REMA",
+        "path":"Rema - Woman (Official Music Video)(MP3_128K).mp3",
+        "Album":{
+"idAlbum":"22",
+"nomAlbum":"Rave & Roses",
+"imageAlbum":"assets/imgs/rema.jpeg"
+        },
+        "idCategori":"1",
+        "est_fav":"true",
+        "nom_fichier":"Woman.mp3"
+        
+    },
+
+
+    {    "idChanson": "24",
+        "Titre":"Wine",
+        "Artist":"REMA ft Yseult",
+        "path":"Rema - Wine (Audio) ft. Yseult_rhdEW8XDmRw.mp3",
+        "Album":{
+
+"idAlbum":"22",
+"nomAlbum":"Rave & Roses",
+"imageAlbum":"assets/imgs/rema.jpeg"
+        },
+        "idCategori":"1",
+        "est_fav":"false",
+        "nom_fichier":"Wine.mp3"
+        
+    },
+
+
+    {    "idChanson": "25",
+        "Titre":"Beamer",
+        "Artist":"REMA",
+        "path":"Rema x Rvssian - Beamer (Bad Boys) [Official Music Video](MP3_128K)_1.mp3",
+        "Album":{
+"idAlbum":"22",
+"nomAlbum":"Rave & Roses",
+"imageAlbum":"assets/imgs/rema.jpeg"
+        },
+        "idCategori":"1",
+        "est_fav":"true",
+        "nom_fichier":"Beamer.mp3"
+        
+    },
+
+
+    {    "idChanson": "27",
+        "Titre":"Calm down remix" ,
+        "Artist":"REMA ft Selena gomez",
+        "path":"Rema - Calm Down (Official Music Video)_CQLsdm1ZYAw.mp3",
+        "Album":{
+"idAlbum":"22",
+"nomAlbum":"Rave & Roses",
+"imageAlbum":"assets/imgs/rema.jpeg"
+        },
+        "idCategori":"1",
+        "est_fav":"false",
+        "nom_fichier":"Calm down remix.mp3"
+        
+    },
+
+    {    "idChanson": "31",
+    "Titre":"SL" ,
+    "path":"Fally Ipupa - SL (Clip Officiel)_wtnoCLyCaC8.mp3",
+    "Artist":"Fally Ipupa",
+    "Album":{
+
+"idAlbum":"33",
+"nomAlbum":"Rave & Roses",
+"imageAlbum":"assets/imgs/fally.jpeg"
+    },
+    "idCategori":"1",
+    "est_fav":"false",
+    "nom_fichier":"SL.mp3"
+    
+},
+{    "idChanson": "31",
+"Titre":"100" ,
+"path":"Fally Ipupa - 100 (Clip officiel)(MP3_128K).mp3",
+"Artist":"Fally Ipupa",
+"Album":{
+
+"idAlbum":"33",
+"nomAlbum":"Rave & Roses",
+"imageAlbum":"assets/imgs/fally.jpeg"
+},
+"idCategori":"1",
+"est_fav":"false",
+"nom_fichier":"100.mp3"
+
+},
+{    "idChanson": "31",
+"Titre":"Prince southfork" ,
+"Artist":"Fally Ipupa",
+"path":"Fally Ipupa - Prince de Southfork (Clip Officiel) (2).mp3",
+"Album":{
+
+"idAlbum":"33",
+"nomAlbum":"Tokos",
+"imageAlbum":"assets/imgs/fally.jpeg"
+},
+"idCategori":"1",
+"est_fav":"false",
+"nom_fichier":"Prince southfork.mp3"
+
+},
+
+{    "idChanson": "32",
+"Titre":"Likolo" ,
+"path":"Fally Ipupa -  Likolo feat. Ninho (Clip officiel)(MP3_128K)_1.mp3",
+"Artist":"Fally Ipupa ft Ninho",
+"Album":{
+
+"idAlbum":"33",
+"nomAlbum":"Tokoss",
+"imageAlbum":"assets/imgs/fally.jpeg"
+},
+"idCategori":"1",
+"est_fav":"false",
+"nom_fichier":"likolo.mp3"
+
+},
+{    "idChanson": "33",
+"Titre":"Kiname" ,
+"path":"Fally Ipupa feat. Booba - Kiname (Clip officiel)_c-ni0M3EtK8.mp3",
+"Artist":"Fally Ipupa ft Booba",
+"Album":{
+
+"idAlbum":"33",
+"nomAlbum":"Tokoss",
+"imageAlbum":"assets/imgs/fally.jpeg"
+},
+"idCategori":"1",
+"est_fav":"false",
+"nom_fichier":"Kiname.mp3"
+
+},
+{    "idChanson": "34",
+"Titre":"Bloquer" ,
+"path":"Fally Ipupa - Bloqué (Clip officiel)(MP3_128K).mp3",
+"Artist":"Fally Ipupa",
+"Album":{
+
+"idAlbum":"33",
+"nomAlbum":"Tokoss",
+"imageAlbum":"assets/imgs/fally.jpeg"
+},
+"idCategori":"1",
+"est_fav":"false",
+"nom_fichier":"Bloquer.mp3"
+
+},
+
+
+{    "idChanson": "40",
+"Titre":"les hommes" ,
+"Artist":"Lady Ponce",
+"path":"Lady Ponce- les hommes_FpKe1e6TWaU.mp3",
+"Album":{
+
+"idAlbum":"44",
+"nomAlbum":"Supreme",
+"imageAlbum":"assets/imgs/lady.jpeg"
+},
+"idCategori":"2",
+"est_fav":"false",
+"nom_fichier":"les homme.mp3"
+
+},
+{    "idChanson": "40",
+"Titre":"La la la" ,
+"Artist":"Lady Ponce",
+"path":"Lady Ponce - La La La (Vidéo Officielle)(MP3_128K).mp3",
+"Album":{
+
+"idAlbum":"44",
+"nomAlbum":"Supreme",
+"imageAlbum":"assets/imgs/lady.jpeg"
+},
+"idCategori":"2",
+"est_fav":"false",
+"nom_fichier":"La la la.mp3"
+
+},
+
+{    "idChanson": "41",
+"Titre":"Ca La" ,
+"Artist":"Lady Ponce",
+"path":"Lady Ponce - Ça La (Vidéo Officielle)(MP3_128K).mp3",
+"Album":{
+
+"idAlbum":"44",
+"nomAlbum":"Supreme",
+"imageAlbum":"assets/imgs/lady.jpeg"
+},
+"idCategori":"2",
+"est_fav":"true",
+"nom_fichier":"Ca la.mp3"
+
+},
+
+{    "idChanson": "42",
+"Titre":"Trahison" ,
+"Artist":"Lady Ponce",
+"path":"Lady Ponce_ trahison(MP3_128K).mp3",
+"Album":{
+
+"idAlbum":"44",
+"nomAlbum":"Supreme",
+"imageAlbum":"assets/imgs/lady.jpeg"
+},
+"idCategori":"2",
+"est_fav":"true",
+"nom_fichier":"Trahison.mp3"
+
+},
+
+{    "idChanson": "43",
+"Titre":"Poisson Fumé" ,
+"path":"Lady Ponce - Poisson Fumé (Vidéo Officielle)(MP3_128K).mp3",
+"Artist":"Lady Ponce",
+"Album":{
+"idAlbum":"44",
+"nomAlbum":"Supreme",
+"imageAlbum":"assets/imgs/lady.jpeg"
+},
+"idCategori":"2",
+"est_fav":"true",
+"nom_fichier":"Poisson Fumé.mp3"
+
+},
+
+{    "idChanson": "44",
+"Titre":"Devine" ,
+"Artist":"Lady Ponce",
+"path":"Lady Ponce _ Koffi Olomide - Devine (Vidéo Officielle)(MP3_128K).mp3",
+"Album":{
+
+"idAlbum":"44",
+"nomAlbum":"Supreme",
+"imageAlbum":"assets/imgs/lady.jpeg"
+},
+"idCategori":"2",
+"est_fav":"true",
+"nom_fichier":"Devine.mp3"
+
+},
+
+{    "idChanson": "50",
+"Titre":"Femme" ,
+"Artist":"Coco Argenté",
+"path":"Coco Argentée  FEMME(MP3_128K).mp3",
+"Album":{
+
+"idAlbum":"55",
+"nomAlbum":"Ouragan",
+"imageAlbum":"assets/imgs/coco.jpeg"
+},
+"idCategori":"2",
+"est_fav":"false",
+"nom_fichier":"Femme.mp3"
+
+},
+
+{    "idChanson": "51",
+"Titre":"Coco carbure" ,
+"path":"COCO ARGENTEE Coco carbure(MP3_128K).mp3",
+"Artist":"Coco Argenté",
+"Album":{
+
+"idAlbum":"55",
+"nomAlbum":"Ouragan",
+"imageAlbum":""
+},
+"idCategori":"2",
+"est_fav":"false",
+"nom_fichier":"Femme.mp3"
+
+},
+{    "idChanson": "52",
+"Titre":"Made in Cameroun" ,
+"Artist":"Coco Argenté",
+
+"path":"COCO ARGENTEE MADE IN CAMEROUN(MP3_128K).mp3",
+"Album":{
+
+"idAlbum":"55",
+"nomAlbum":"Ouragan",
+"imageAlbum":"assets/imgs/coco.jpeg"
+},
+"idCategori":"2",
+"est_fav":"true",
+"nom_fichier":"Made in Cameroun.mp3"
+
+},
+
+{    "idChanson": "53",
+"Titre":"Fallait Pas" ,
+"Artist":"Coco Argenté",
+"path":"Coco Argentée  FEMME(MP3_128K).mp3",
+"Album":{
+
+"idAlbum":"55",
+"nomAlbum":"Ouragan",
+"imageAlbum":"assets/imgs/coco.jpeg"
+},
+"idCategori":"2",
+"est_fav":"false",
+"nom_fichier":"Fallait Pas.mp3"
+
+},
+
+{    "idChanson": "61",
+"Titre":"Qui a bu boira" ,
+"Artist":"Majoie Ayi",
+"path":"Majoie Ayi - Qui a bu boira (Clip Officiel)_kyLxtflLYqo.mp3",
+"Album":{
+
+"idAlbum":"66",
+"nomAlbum":"la Maradora",
+"imageAlbum":"assets/imgs/ayi.jpg"
+},
+"idCategori":"2",
+"est_fav":"false",
+"nom_fichier":"Qui a bu boira.mp3"
+
+},
+{"idChanson": "62",
+"Titre":"Panik  a bord" ,
+"path":"Majoie AYI-Panik à Bord vidéo officielle_hTXLns3788U.mp3",
+"Artist":"Majoie Ayi",
+"Album":{
+
+"idAlbum":"66",
+"nomAlbum":"la Maradora",
+"imageAlbum":"assets/imgs/ayi.jpg"
+},
+"idCategori":"2",
+"est_fav":"false",
+"nom_fichier":"Panik  a bord.mp3"
+
+},
+
+{"idChanson": "70",
+"path":"kouchouam mbada - swenga menzui_yNeFL_-qbyY.mp3",
+"Titre":"Swenga" ,
+"Artist":"Kouchouam mbada",
+"Album":{
+
+"idAlbum":"77",
+"nomAlbum":"Swenga",
+"imageAlbum":"assets/imgs/swega.jpeg"
+},
+"idCategori":"4",
+"est_fav":"false",
+"nom_fichier":"Kouchouam mbada.mp3"
+
+},
+
+{"idChanson": "71",
+"path":"Dj Gérard Ben - Il ya pas match [Clip Officiel]_GcjSrzVs5xw.mp3",
+"Titre":"il ya pas match" ,
+"Artist":"Dj Gerard Ben",
+"Album":{
+
+"idAlbum":"77",
+"nomAlbum":"Gerard Ben",
+"imageAlbum":"assets/imgs/gerard ben.jpeg"
+},
+"idCategori":"4",
+"est_fav":"false",
+"nom_fichier":"il ya pas match.mp3"
+
+},
+{"idChanson": "70",
+"path":"Dj Gérard Ben - L' amour de maman [Clip Officiel]_yEHZNZzDLcE.mp3",
+"Titre":"Jumeaux" ,
+"Artist":"Dj Gerard Ben",
+"Album":{
+
+"idAlbum":"77",
+"nomAlbum":"Gerard Ben",
+"imageAlbum":"assets/imgs/gerard ben.jpeg"
+},
+"idCategori":"4",
+"est_fav":"false",
+"nom_fichier":"Jumeaux.mp3"
+
+},
+{"idChanson": "72",
+"path":"Dj Gérard Ben - Jumeaux [Clip Officiel]_3TW8DRL5U3E.mp3",
+"Titre":"l'amour de maman" ,
+"Artist":"Dj Gerard Ben",
+"Album":{
+
+"idAlbum":"77",
+"nomAlbum":"Gerard Ben",
+"imageAlbum":"assets/imgs/gerard ben.jpeg"
+},
+"idCategori":"4",
+"est_fav":"false",
+"nom_fichier":"l'amour de maman.mp3"
+
+},
+
+{"idChanson": "73",
+"path":"Fingon  Tralala - Ben Skin Tralalatisé (Clip Officiel)_XrhAdLLJZck.mp3",
+"Titre":"Ben Skin Tralalatisé" ,
+"Artist":"Fingon Trala",
+"Album":{
+"idAlbum":"77",
+"nomAlbum":"Fingon",
+"imageAlbum":"assets/imgs/fingon.jpeg"
+},
+"idCategori":"4",
+"est_fav":"true",
+"nom_fichier":"Ben Skin.mp3"
+
+},
+
+
+
+{"idChanson": "200",
+"path":"100 FAÇON - MON ZOUGLOU_ CLIP OFFICIEL(MP3_128K)_1.mp3",
+"Titre":"100 Facons" ,
+"Artist":"Fingon Trala",
+"Album":{
+"idAlbum":"77",
+"nomAlbum":"Fingon",
+"imageAlbum":"assets/imgs/fingon.jpeg"
+},
+"idCategori":"4",
+"est_fav":"true",
+"nom_fichier":"Ben Skin.mp3"
+
+},
+{"idChanson": "201",
+"path":"TAKAM 2- FOLKLORE BAMILEKE.wmv(MP3_128K).mp3",
+"Titre":"Takam" ,
+"Artist":"TAKAM",
+"Album":{
+"idAlbum":"77",
+"nomAlbum":"Fingon",
+"imageAlbum":"assets/imgs/fingon.jpeg"
+},
+"idCategori":"4",
+"est_fav":"true",
+"nom_fichier":"Ben Skin.mp3"
+
+},
+{"idChanson": "202",
+"path":"GROUPE TAKAM 2 Kouang(MP3_128K).mp3",
+"Titre":"Kouang" ,
+"Artist":"Takam",
+"Album":{
+"idAlbum":"77",
+"nomAlbum":"Fingon",
+"imageAlbum":"assets/imgs/fingon.jpeg"
+},
+"idCategori":"4",
+"est_fav":"true",
+"nom_fichier":"Ben Skin.mp3"
+
+},
+{"idChanson": "203",
+"path":"TCHAKALA VIP - PIED DU BB(MP3_128K).mp3",
+"Titre":" PIED DU BB" ,
+"Artist":"TCHAKALA VIP",
+"Album":{
+"idAlbum":"200",
+"nomAlbum":"TCHAKALA VIP",
+"imageAlbum":"assets/imgs/vip.jpg"
+},
+"idCategori":"4",
+"est_fav":"true",
+"nom_fichier":"vip.mp3"
+
+},
+{"idChanson": "204",
+"path":"TCHAKALA VIP - For O Fess (Clip Officiel).mp3",
+"Titre":"For O Fess" ,
+"Artist":"TCHAKALA VIP ",
+"Album":{
+"idAlbum":"200",
+"nomAlbum":"TCHAKALA VIP",
+"imageAlbum":"assets/imgs/vip.jpg"
+},
+"idCategori":"4",
+"est_fav":"true",
+"nom_fichier":"Ben Skin.mp3"
+
+},
+{"idChanson": "205",
+"path":"tchakala v.i.p (ft dj zidane) - position 74 (clip officiel)(MP3_128K).mp3",
+"Titre":"position 74" ,
+"Artist":"TCHAKALA VIP",
+"Album":{
+"idAlbum":"200",
+"nomAlbum":"TCHAKALA VIP",
+"imageAlbum":"assets/imgs/vip.jpg"
+},
+"idCategori":"4",
+"est_fav":"true",
+"nom_fichier":"Ben Skin.mp3"
+
+},
+
+{"idChanson": "81",
+"path":".mp3",
+"Titre":"Soul Makossa" ,
+"Artist":"Manu Dibango",
+"Album":{
+
+"idAlbum":"88",
+"nomAlbum":"Dibango",
+"imageAlbum":"assets/imgs/dibango.jpeg"
+},
+"idCategori":"3",
+"est_fav":"false",
+"nom_fichier":"Soul makossa.mp3"
+
+},
+{"idChanson": "82",
+"path":".mp3",
+"Titre":"Ce soir au village" ,
+"Artist":"Manu Dibango",
+"Album":{
+
+"idAlbum":"88",
+"nomAlbum":"Dibango",
+"imageAlbum":"assets/imgs/dibango.jpeg"
+},
+"idCategori":"3",
+"est_fav":"false",
+"nom_fichier":"Ce soir au village.mp3"
+
+},
+{"idChanson": "90",
+"path":"Ridimz - Shabasiko (Clip Officiel)_flQ_ndfwJfQ.mp3",
+"Titre":"Shabasiko" ,
+"Artist":"Ridimz",
+"Album":{
+
+"idAlbum":"99",
+"nomAlbum":"Ridimz",
+"imageAlbum":"assets/imgs/ridimz.jpeg"
+},
+"idCategori":"3",
+"est_fav":"false",
+"nom_fichier":"Shabasiko.mp3"
+
+},
+{"idChanson": "91",
+"Titre":"La clé" ,
+"path":"Phillbill - La Clé (Official Vidéo)(MP3_128K).mp3",
+"Artist":"PhillBill",
+"Album":{
+
+"idAlbum":"99",
+"nomAlbum":"Phillbill",
+"imageAlbum":"assets/imgs/ridimz.jpeg"
+},
+"idCategori":"3",
+"est_fav":"false",
+"nom_fichier":"La clé.mp3"
+},
+{"idChanson": "92",
+"Titre":"Malova" ,
+"path":"Phillbill MALOVA Feat. Krys M ( Lyric Vidéo )_n2uKFZV6ZpU.mp3",
+"Artist":"PhillBill",
+"Album":{
+
+"idAlbum":"99",
+"nomAlbum":"Phillbill ft Styfler90",
+"imageAlbum":"assets/imgs/ridimz.jpeg"
+},
+"idCategori":"3",
+"est_fav":"false",
+"nom_fichier":"Bikossa.mp3"
+},
+
+{"idChanson": "93",
+"path":"Grace Decca (Official Video) Challenge_zKhjUc_vHEY.mp3",
+"Titre":"Challenge" ,
+"Artist":"Grace Decca",
+"Album":{
+
+"idAlbum":"100",
+"nomAlbum":"Grace Decca",
+"imageAlbum":"assets/imgs/deca.jpeg"
+},
+"idCategori":"3",
+"est_fav":"false",
+"nom_fichier":"Challenge.mp3"
+},
+
+{"idChanson": "94",
+"path":"Phillbill - Bikossa Ft. Styfler90, Ego & Prido (clip officiel)_1qJQfgs7u2o.mp3",
+"Titre":"Bikossa" ,
+"Artist":"PhillBill",
+"Album":{
+
+"idAlbum":"99",
+"nomAlbum":"Phillbill",
+"imageAlbum":"assets/imgs/ridimz.jpeg"
+},
+"idCategori":"3",
+"est_fav":"false",
+"nom_fichier":"Philbert.mp3"
+},
+{"idChanson": "96",
+"path":"KRYS M - Il va donner pour moi (official video) Directed by CHUZIH_1DaaGXLodf4.mp3",
+"Titre":"Il va donner pour moi" ,
+"Artist":"Krys M",
+"Album":{
+
+    "idAlbum": "101",
+    "nomAlbum": "Krys M",
+    "imageAlbum": "assets/imgs/krysm.jpg"
+},
+"idCategori":"3",
+"est_fav":"false",
+"nom_fichier":"krysm.mp3"
+},
+{"idChanson": "95",
+"path":"KRYS M - Chacun sa chance (official video) directed by Kwedi nelson(MP3_128K).mp3",
+"Titre":"Chacun sa chance" ,
+"Artist":"Krys M",
+"Album":{
+
+    "idAlbum": "101",
+    "nomAlbum": "Krys M",
+    "imageAlbum": "assets/imgs/krysm.jpg"
+},
+"idCategori":"3",
+"est_fav":"false",
+"nom_fichier":"krysm.mp3"
+},
+{"idChanson": "98",
+"path":"KRYS M - Qui croira verra (official video) Directed by CHUZIH(MP3_128K).mp3",
+"Titre":"Qui croira verra" ,
+"Artist":"Krys M",
+"Album":{
+
+    "idAlbum": "101",
+    "nomAlbum": "Krys M",
+    "imageAlbum": "assets/imgs/krysm.jpg"
+},
+"idCategori":"3",
+"est_fav":"false",
+"nom_fichier":"krysm.mp3"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]

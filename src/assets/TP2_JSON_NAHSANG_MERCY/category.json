@@ -1,0 +1,18 @@
+[
+    {"nom":"Afro Urban",
+    "idCategori":"1",
+     "image":"assets/imgs/afro.jpeg"
+    },
+    {"nom":"Makossa",
+    "idCategori":"3",
+    "image":"assets/imgs/makossa.jpg"
+},
+{"nom":"Bitkussi",
+"idCategori":"2",
+"image":"assets/imgs/bitkussi.jpg"
+},
+{"nom":"Bensikin",
+"idCategori":"4",
+"image":"assets/imgs/bensikin.jpg"
+}
+]
