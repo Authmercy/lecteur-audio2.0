@@ -1,0 +1,7 @@
+{
+  "name": "go-play",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

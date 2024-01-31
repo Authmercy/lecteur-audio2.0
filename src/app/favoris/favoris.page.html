@@ -1,0 +1,46 @@
+<ion-content>
+
+<div class="container">
+  <ion-col size="3" class="element">
+    <ion-badge color="light" style="background-color: orangered;   border: 1px solid orangered;" class="custom-badge"(click)="favoris()" >
+       Favoris
+    </ion-badge>
+  </ion-col>
+  <ion-col size="3" class="element">
+    <ion-badge color="light" class="custom-badge"  (click)="chanson()">
+      Chanson
+    </ion-badge>
+  </ion-col>
+  <ion-col size="3" class="element">
+   <ion-badge color="light" class="custom-badge" (click)="playlist()">
+       Playlist
+   </ion-badge></ion-col>
+  <ion-col size="3" class="element">
+    <ion-badge color="light" class="custom-badge" (click)="album()">
+       Album
+    </ion-badge>
+  </ion-col>
+  <ion-col size="3" class="element">
+    <ion-badge color="light" class="custom-badge" (click)="artist()">
+       Artiste
+    </ion-badge>
+  </ion-col>
+</div>
+<div class="debut">
+  <ion-icon name="list-outline" slot="start"></ion-icon>
+</div>
+
+
+
+<div>
+  <ion-item>
+  
+  
+<ion-avatar>
+  <img src="assets/images/player.jpeg" />
+</ion-avatar>
+<ion-label>Label</ion-label>
+<ion-icon name="ellipsis-vertical-outline"></ion-icon>
+</ion-item>
+</div>
+</ion-content>

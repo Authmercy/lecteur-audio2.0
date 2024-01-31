@@ -1,0 +1,60 @@
+<ion-content>
+  <div class="body">
+  <!-- Playback section -->
+  <div text-center>
+    <!-- File name -->
+    <br>
+    <h1>Song</h1>
+    <br>
+
+    <!-- avatar -->
+    <div style="display: flex; justify-content: center; align-items: center;">
+      <img src="assets/images/play.jpg" class="photo" style="width: 80%; " />
+    </div>
+    <br>
+
+    <!-- control bar -->
+    <div class="range">
+      <ion-range  aria-label="Range with knob events"
+      (ionKnobMoveStart)="onIonKnobMoveStart($event)"
+      (ionKnobMoveEnd)="onIonKnobMoveEnd($event)" >
+      
+        <ion-label slot="start"></ion-label>
+        <ion-label slot="end" >--:--</ion-label>
+        <ion-label slot="end" ></ion-label>
+      </ion-range>
+    </div>
+    <br>
+
+    <ion-grid>
+      <ion-row class="ion-align-items-center ion-justify-content-center" style="height: 100%">
+        <ion-col>
+          <!-- Backwards -->
+          <ion-icon  name="heart" style="color: red;font-size: 40px"></ion-icon> 
+
+            &nbsp;&nbsp;<ion-icon name="play-skip-back" style="font-size: 40px;color: white;"> </ion-icon>&nbsp;&nbsp;
+         
+        </ion-col>
+        <ion-col style="padding-left:20px ;">
+          <!-- Play/Pause -->
+          <ion-fab-button class="play-pause-btn" color="light"  
+            >
+            <ion-icon name="play"></ion-icon>
+          </ion-fab-button>
+
+          <ion-fab-button class="play-pause-btn" color="light" >
+            <ion-icon name="pause"></ion-icon>
+          </ion-fab-button>
+        </ion-col>
+        <ion-col>
+          <!-- Forwards -->
+      
+            &nbsp;&nbsp;<ion-icon name="play-skip-forward" style="font-size: 40px;color: white;"></ion-icon>&nbsp;&nbsp;
+            <ion-icon name="repeat" style="font-size: 40px;color: white;"></ion-icon>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+  </div>
+</div>
+</ion-content>

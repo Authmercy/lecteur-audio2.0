@@ -1,0 +1,17 @@
+ion-badge {
+  padding: 15px 15px 15px 15px; 
+
+  border-radius: 18px;
+  color:white;
+  border: 1px solid #8c8c8c;
+background-color: rgb(110, 104, 104);
+  text-align: center;
+}
+ion-badge:hover{
+  background-color: orangered;
+  border: 1px solid orangered;
+}
+.debut{
+  font-size: 30px;
+  padding-left: 85%;
+}
