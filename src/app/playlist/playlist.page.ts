@@ -26,62 +26,25 @@ export class PlaylistPage implements OnInit {
   durree = 60;
   idAlbum = '';
   cat:any;
+  Listchanson: any[] = [];
   sonsAlbum: any[] = [];
   sonsList: any[] = [];
   source! : string | null;
   titre = '';
   public buffer = 0;
   progress = 0;
+  Tsongs: any[] = [];
   private sonsListRecherche: any[] = [];
   ngOnInit() {
-
-    let sources = localStorage.getItem("source");
-    if(sources){
-      this.source = sources;
-      console.log("source:",sources)
-    }
-
-    let idAlbum = localStorage.getItem("idAlbum");
-    localStorage.removeItem("idAlbum");
-
-    if(idAlbum){
-      this.idAlbum = JSON.parse(idAlbum);
-    }
-    let cat = localStorage.getItem("cat");
-    localStorage.removeItem("cat");
-
-    
-    if(cat){
-      this.cat = JSON.parse(cat);
-    }
-
-    this.sonsService.getSons().subscribe((sons: any)=>{
-      this.sonsList = sons;
-      this.sonsListRecherche = sons;
-       sons.forEach((son: any) => {
-        if(this.source == "album"){
-          if (son.Album.idAlbum == this.idAlbum){
-            this.sonsAlbum.push(son);
-            this.titre = son.Album.nomAlbum;
-          }
-        }else{
-          if (son.idCategorie == this.cat.id){
-            this.sonsAlbum.push(son);
-            this.titre = this.cat.nom
-          }
-        }
+    this.sonsService.getSons().subscribe((rep: any) => {
+      this.Tsongs = rep;
+      console.log(this.Tsongs);
+    }, (err) => {
+      console.log(err);
     });
-    this.pending = true;
-    },(err:any)=>{
-      console.log("erreur au niveau de:",err);
-    })
-    
-
-
-
-
 
     let son = localStorage.getItem("sonL");
+    console.log(son)
     localStorage.removeItem("sonL");
     if (son){
       this.son = JSON.parse(son);
@@ -89,15 +52,15 @@ export class PlaylistPage implements OnInit {
     }
 
     let list = localStorage.getItem("list");
+    localStorage.removeItem("sonL");
     localStorage.removeItem("list");
     if (list){
       this.list = JSON.parse(list);
     }
     let deux = localStorage.getItem("deux");
     localStorage.removeItem("deux");
-
-
   }
+
   onIonKnobMoveStart(ev: Event) {
     console.log('ionKnobMoveStart:', (ev as RangeCustomEvent).detail.value);
   }
@@ -120,8 +83,16 @@ export class PlaylistPage implements OnInit {
   favoris(){ this.route.navigate(['favoris'])  }
   isModalOpen = false;
 
-  setOpen(isOpen: boolean) {
+  setOpen(isOpen: boolean,son: any) {
     this.isModalOpen = isOpen;
+    localStorage.setItem("sonL",JSON.stringify(son));
+    localStorage.setItem("list",JSON.stringify(this.sonsAlbum));
+    let sonA = localStorage.getItem("sonL");
+    console.log(sonA)
+  }
+  close(isOpen:boolean){
+    this.isModalOpen = isOpen;
+    localStorage.removeItem("sonL");
   }
 
   getProgress() {
@@ -263,5 +234,8 @@ async resetProgress(son: any){
   // let durree = await this.musicService.dureeB(son);
   this.progress = 0;
 }
-
+async canDismiss(data?: any, role?: string) {
+  return role !== 'gesture';
 }
+}
+

@@ -45,6 +45,7 @@ export class SongPage implements OnInit {
     });
 
     let son = localStorage.getItem("sonL");
+    console.log(son)
     localStorage.removeItem("sonL");
     if (son){
       this.son = JSON.parse(son);
@@ -52,10 +53,13 @@ export class SongPage implements OnInit {
     }
 
     let list = localStorage.getItem("list");
+    localStorage.removeItem("sonL");
     localStorage.removeItem("list");
     if (list){
       this.list = JSON.parse(list);
     }
+    let deux = localStorage.getItem("deux");
+    localStorage.removeItem("deux");
   }
 
   onIonKnobMoveStart(ev: Event) {
@@ -83,6 +87,13 @@ export class SongPage implements OnInit {
   setOpen(isOpen: boolean,son: any) {
     this.isModalOpen = isOpen;
     localStorage.setItem("sonL",JSON.stringify(son));
+    localStorage.setItem("list",JSON.stringify(this.sonsAlbum));
+    let sonA = localStorage.getItem("sonL");
+    console.log(sonA)
+  }
+  close(isOpen:boolean){
+    this.isModalOpen = isOpen;
+    localStorage.removeItem("sonL");
   }
 
   getProgress() {
@@ -224,6 +235,8 @@ async resetProgress(son: any){
   // let durree = await this.musicService.dureeB(son);
   this.progress = 0;
 }
-
+async canDismiss(data?: any, role?: string) {
+  return role !== 'gesture';
+}
 }
 

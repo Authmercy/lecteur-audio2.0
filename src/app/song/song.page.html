@@ -31,20 +31,22 @@
   <ion-icon name="list-outline" slot="start"></ion-icon>
 </div>
 
+<ion-list *ngFor="let item of Tsongs">
+  
 
 
 
-<ion-item (click)="setOpen(true,son)"  *ngFor="let item of Tsongs"  color="dark">
+<ion-item (click)="setOpen(true,item)"    color="dark">
   
   
   <ion-avatar>
-    <img src="{{item.Album.imageAlbum}}" />
+    <img src="{{item.Album.imageAlbum}}" class="photo" style="width: 80%; " />
   </ion-avatar>
   
   <ion-label >{{item.Titre}}</ion-label>
   <ion-icon name="ellipsis-vertical-outline"></ion-icon>
   </ion-item>
-  
+</ion-list>
   
   <ion-modal [isOpen]="isModalOpen">
     <ng-template>
@@ -52,7 +54,7 @@
       <ion-content >
         
         <div class="body">
-          <ion-icon name="chevron-down-outline" (click)="setOpen(false,son)" color="light" style="font-size:  40px"></ion-icon>
+          <ion-icon name="chevron-down-outline" (click)="close(false)" color="light" style="font-size:  40px"></ion-icon>
           <!-- Playback section -->
           <div text-center>
             <!-- File name -->
@@ -60,7 +62,7 @@
         
             <!-- avatar -->
             <div style="display: flex; justify-content: center; align-items: center;">
-              <!-- <img src="{{son.Album.imageAlbum}}" class="photo" style="width: 80%; " /> -->
+            <img src="{{son.Album.imageAlbum}}" class="photo" style="width: 80%; " /> 
             </div>
             <br>
         
@@ -77,9 +79,9 @@
             </div>
             <br>
         <div class="detail">
-            <h1> {{son.Titre}}</h1>
-            <p>{{son.nomArtiste}}</p>
-          </div>
+            <h1> {{son.Titre}}</h1> </div>
+            <p>{{son.Artist}}</p>
+         
             <ion-grid>
               <ion-row class="ion-align-items-center ion-justify-content-center" style="height: 100%">
                 <ion-col>
@@ -91,12 +93,12 @@
                 </ion-col>
                 <ion-col style="padding-left:20px ;">
                   <!-- Play/Pause -->
-                  <ion-fab-button class="play-pause-btn"(click)="play(son)" color="light"  
+                  <ion-fab-button class="play-pause-btn"(click)="play(son)" *ngIf="!enCours" color="light"  
                     >
                     <ion-icon name="play" ></ion-icon>
                   </ion-fab-button>
         
-                  <ion-fab-button class="play-pause-btn" (click)="pause(son)" color="light" >
+                  <ion-fab-button class="play-pause-btn" (click)="pause(son)"  *ngIf="enCours"color="light" >
                     <ion-icon name="pause"></ion-icon>
                   </ion-fab-button>
                 </ion-col>
